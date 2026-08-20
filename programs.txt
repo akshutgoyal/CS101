@@ -1,0 +1,4 @@
+program to find the sum and average of two numbers
+program to find the greatest of 10 numbers
+program to find simple interest
+program to demonstrate logical, bitwise and arithmetic operations using two numbers
