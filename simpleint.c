@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main(){
-    int p;
-    int r;
-    int t;
+    int principal;
+    int rate;
+    int time;
 
     printf("Enter principle amount (in Rs):");
-    scanf("%d",&p);
+    scanf("%d",&principal);
     printf("Enter percentage of interest:");
-    scanf("%d",&r);
+    scanf("%d",&rate);
     printf("Enter time period (in years):");
-    scanf("%d",&t);
+    scanf("%d",&time);
     
-    int simp=p*r*t/100;
-    printf("Simple interest is %dRs",simp);
+    float si=principal*rate*time/100;
+    printf("Simple interest is %.2fRs",si);
 }
